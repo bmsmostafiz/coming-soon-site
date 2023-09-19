@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.main-page{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('../img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 200px 10%;
+}
+
+.soon{
+    display: flex;
+    align-items: center;
+}
+
+.soon h2{
+    font-size: 50px;
+}
+
+.launch-time{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.launch-time div{
+    flex-basis: 100px;
+    text-align: center;
+}
+
+.launch-time div p{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.brand-text h1{
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.brand-text h1 span{
+    color: rgb(39, 110, 39);
+}
+
+form{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+form input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+}
+
+form button{
+    background: #61b752;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.thanks-text{
+    color: #61b752;
+}
+
+.plane{
+    width: 240px;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    animation: plane 4s linear infinite;
+}
+
+@keyframes plane{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -25,6 +25,10 @@
     font-size: 50px;
 }
 
+.soon h2 span{
+    color: #61b752;
+}
+
 .launch-time{
     width: 40vw;
     display: flex;
@@ -48,11 +52,22 @@
 }
 
 .brand-text h1 span{
-    color: rgb(39, 110, 39);
+    color: #61b752;
+}
+
+
+
+.subscribe h3{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    letter-spacing: 3px;
+    color: #61b752;
 }
 
 form{
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -84,7 +99,7 @@ form button{
 }
 
 .plane{
-    width: 240px;
+    width: 230px;
     position: absolute;
     right: 5%;
     bottom: 0;
@@ -101,14 +116,3 @@ form button{
         opacity: 1;
     }
 }
-
-
-
-
-
-
-
-
-
-
-

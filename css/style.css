@@ -101,7 +101,7 @@ form button{
 .plane{
     width: 230px;
     position: absolute;
-    right: 5%;
+    right: 6%;
     bottom: 0;
     animation: plane 4s linear infinite;
 }
